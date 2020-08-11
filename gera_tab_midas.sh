@@ -8,7 +8,7 @@
 HEADER
 
 API="midas.lasa" ## Host da API
-AUTH="Authorization: Basic NjU0MzIxOiRNaWRhcy4xMjM=" ## Autenticação com redenciais em Base64
+AUTH="Authorization: Basic " ## Autenticação com redenciais em Base64
 BASE=$(basename $0) ## Nome do script
 LOG="/DSOP/DLOG/${BASE%%.*}.log" ## Arquivo de log
 TAB="/DSOP/DTAB/LOJAS_MIDAS"
